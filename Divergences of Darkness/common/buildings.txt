@@ -24,7 +24,7 @@ aeroplane_factory = {
         steel = 600
         cement = 600
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -45,7 +45,7 @@ barrel_factory = {
         cement = 500
     }
 
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -65,7 +65,7 @@ automobile_factory = {
         steel = 400
         cement = 400
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -86,7 +86,7 @@ radio_factory = {
         steel = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -107,7 +107,7 @@ telephone_factory = {
         steel = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -129,7 +129,7 @@ electric_gear_factory = {
         steel = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -149,7 +149,7 @@ machine_parts_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -169,7 +169,7 @@ synthetic_oil_factory = {
         steel = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -189,7 +189,7 @@ fuel_refinery = {
         steel = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -213,7 +213,7 @@ steamer_shipyard = {
         steel = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -234,7 +234,7 @@ clipper_shipyard = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -255,7 +255,7 @@ luxury_clothes_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -274,7 +274,7 @@ luxury_furniture_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -295,7 +295,7 @@ steel_factory = {
         iron = 200
         coal = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -314,7 +314,7 @@ artillery_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -332,7 +332,7 @@ small_arms_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -352,7 +352,7 @@ furniture_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -370,7 +370,7 @@ paper_mill = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -388,7 +388,7 @@ regular_clothes_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -406,7 +406,7 @@ explosives_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -427,7 +427,7 @@ ammunition_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -446,7 +446,7 @@ canned_food_factory = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -465,7 +465,7 @@ dye_factory = {
         steel = 200 #was iron
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -485,7 +485,7 @@ liquor_distillery = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -504,7 +504,7 @@ winery = {
         iron = 200
         cement = 200
     }
-    time = 730
+    time = 30
     visibility = yes
     onmap = no
 
@@ -524,7 +524,7 @@ lumber_mill = {
         iron = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -542,7 +542,7 @@ fabric_factory = {
         iron = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -560,7 +560,7 @@ cement_factory = {
         iron = 200
         lumber = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -578,7 +578,7 @@ glass_factory = {
         iron = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 
@@ -597,7 +597,7 @@ fertilizer_factory = {
         iron = 200
         cement = 200
     }
-    time = 365
+    time = 30
     visibility = yes
     onmap = no
 

@@ -159,39 +159,30 @@ party_issues = {
     war_policy = {
         jingoism = {
             max_military_spending = 1.0
-            supply_consumption = 0.1
-            war_exhaustion_effect = 0.5
             is_jingoism = yes
             cb_generation_speed_modifier = 0.3
             mobilization_impact = 4
-            org_regain = 0.5
-            reinforce_speed = 0.5
+            org_regain = 0.1
+            reinforce_speed = 0.1
         }
         pro_military = {
             max_military_spending = 1.0
-            war_exhaustion_effect = 0.7
             cb_generation_speed_modifier = 0.2
-            mobilization_impact = 3
-            org_regain = 0.25
-            reinforce_speed = 0.25
+            mobilization_impact = 4
+            org_regain = 0.05
+            reinforce_speed = 0.05
         }
         anti_military = {
             max_military_spending = 0.5
-            supply_consumption = -0.25
-            war_exhaustion_effect = 1.2
             cb_generation_speed_modifier = -0.2
-            mobilization_impact = 2
-            org_regain = -0.25
-            reinforce_speed = -0.25
+            mobilization_impact = 4
         }
         pacifism = {
             max_military_spending = 0.4
-            supply_consumption = -0.5
-            war_exhaustion_effect = 1.5
             cb_generation_speed_modifier = -0.4
-            mobilization_impact = 1
-            org_regain = -0.5
-            reinforce_speed = -0.5
+            mobilization_impact = 4
+            org_regain = -0.1
+            reinforce_speed = -0.1
         }
     }
     social_policy = {
@@ -712,7 +703,6 @@ social_reforms = {
         }
         good_pensions = {
             pension_level = 1
-            global_population_growth = 0.001
             global_immigrant_attract = 0.04
         }
     }
@@ -721,25 +711,22 @@ social_reforms = {
         next_step_only = yes
         no_health_care = {}
         trinket_health_care = {
-            global_population_growth = 0.001
             administrative_multiplier = 1
             global_immigrant_attract = 0.01
             allow = { has_country_flag = medicine_invented }
         }
         low_health_care = {
-            global_population_growth = 0.002
             administrative_multiplier = 2
             global_immigrant_attract = 0.02
             allow = { has_country_flag = germs_invented }
         }
         acceptable_health_care = {
-            global_population_growth = 0.003
             administrative_multiplier = 3
             global_immigrant_attract = 0.03
             allow = { has_country_flag = gaslights_invented }
         }
         good_health_care = {
-            global_population_growth = 0.004
+            global_population_growth = 0.0001
             administrative_multiplier = 4
             global_immigrant_attract = 0.04
             allow = { has_country_flag = electricity_invented }

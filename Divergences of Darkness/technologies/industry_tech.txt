@@ -1381,6 +1381,9 @@ electricity = {
     cost = 18000
 
     supply_limit = 0.50
+
+	pop_growth = 0.00025
+
     ai_chance = {
         factor = 5
         modifier = {
