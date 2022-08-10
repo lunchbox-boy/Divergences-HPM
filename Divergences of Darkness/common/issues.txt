@@ -114,6 +114,7 @@ party_issues = {
         }
         agrarianism = {
             min_tax = 0.5
+	    RGO_throughput = 0.15
             global_pop_militancy_modifier = -0.05
             factory_owner_cost = -1 #negative costs, can't build.
             rules = {
@@ -796,7 +797,6 @@ social_reforms = {
 		next_step_only = yes
 		child_labor_legal = {
 			poor_savings_modifier = 0.10
-			global_population_growth = -0.001
 			education_efficiency_modifier = -0.1
 			factory_throughput = 0.1
 			artisan_throughput = 0.1
