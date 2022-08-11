@@ -226,18 +226,3 @@ total_blockaded = {
 
 in_bankrupcy = {
 }
-
-slight_refund = {
-	tax_efficiency = -0.15
-	tariff_efficiency_modifier = -0.30
-}
-
-medium_refund = {
-	tax_efficiency = -0.25
-	tariff_efficiency_modifier = -0.40
-}
-
-large_refund = {
-	tax_efficiency = -0.40
-	tariff_efficiency_modifier = -0.60
-}

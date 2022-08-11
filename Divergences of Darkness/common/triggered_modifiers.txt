@@ -3,91 +3,7 @@
 #
 # Effects are fully scriptable here.
 
-trinket_health_care_fully_funded = {
-    trigger = {
-        exists = yes
-        health_care = trinket_health_care
-        administration_spending = 0.2
-    }
-    global_population_growth = 0.001
-    icon = 19
-}
 
-low_health_care_fully_funded = {
-    trigger = {
-        exists = yes
-        health_care = low_health_care
-        OR = {
-            AND = {
-                ai = yes
-                administration_spending = 0.25
-            }
-            AND = {
-                ai = no
-                administration_spending = 0.3
-            }
-        }
-    }
-    global_population_growth = 0.002
-    icon = 19
-}
-
-acceptable_health_care_fully_funded = {
-    trigger = {
-        exists = yes
-        health_care = acceptable_health_care
-        OR = {
-            AND = {
-                ai = yes
-                administration_spending = 0.3
-            }
-            AND = {
-                ai = no
-                administration_spending = 0.4
-            }
-        }
-    }
-    global_population_growth = 0.003
-    icon = 19
-}
-
-good_health_care_fully_funded = {
-    trigger = {
-        exists = yes
-        health_care = good_health_care
-        OR = {
-            AND = {
-                ai = yes
-                administration_spending = 0.3
-            }
-            AND = {
-                ai = no
-                administration_spending = 0.5
-            }
-        }
-    }
-    global_population_growth = 0.004
-    icon = 19
-}
-
-health_care_fully_funded = {
-    trigger = {
-        exists = yes
-        health_care = good_health_care
-        OR = {
-            AND = {
-                ai = yes
-                administration_spending = 0.74
-            }
-            AND = {
-                ai = no
-                administration_spending = 0.99
-            }
-        }
-    }
-    global_population_growth = 0.001
-    icon = 19
-}
 
 low_schools_fully_funded = {
     trigger = {
@@ -288,6 +204,7 @@ own_kiel_canal = {
         is_canal_enabled = 1
     }
     icon = 9
+    import_cost = -0.1
     tariff_efficiency_modifier = 0.05
 }
 
@@ -374,7 +291,7 @@ landlocked_nation = {
         NOT = { has_country_modifier = trek_boers }
     }
 
-    import_cost = 0.5
+    import_cost = 0.25
     global_immigrant_attract = -1.5
     icon = 8
 }
@@ -431,22 +348,6 @@ hormuz_strait = {
     icon = 16
 }
 
-
-new_world_war = {
-    trigger = {
-        war = yes
-        exists = yes
-        OR = {
-            capital_scope = { continent = north_america }
-            capital_scope = { continent = south_america }
-            capital_scope = { continent = australia_new_zealand }
-        }
-    }
-
-    global_immigrant_attract = -1.3
-    icon = 16
-}
-
 DVG_badboy_1 = {
     trigger = {
         NOT = { has_global_flag = DVG_infamy }
@@ -476,4 +377,15 @@ powerful_HRE = {
         NOT = { year = 1849 }
     }
     prestige = -0.50
+}
+
+ai_help = {
+    trigger = {
+        ai = yes
+        exists = yes
+    }
+
+    global_pop_militancy_modifier = -0.02
+    tax_efficiency = 0.15
+    icon = 16
 }
