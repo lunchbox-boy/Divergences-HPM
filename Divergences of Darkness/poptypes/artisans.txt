@@ -13,42 +13,37 @@ rebel = {
     irregular = 0.5
 }
 
-#Total = 11		Vanilla = 11
 life_needs = {
-    cattle = 0.75 #1.5
-    wool = 1 #0.7
-    fish = 1 #1.5
-    fruit = 1 #1.8
-    grain = 2.5 #5.5
+	cattle = 0.75
+	wool =  1
+	fish =  1
+	fruit =  0.75
+	grain =  2.5
 }
 
-#Total cash needed: 110.725 - Vanilla value: 116.9
 everyday_needs = {
-    coal = 1
-    liquor = 5
-    regular_clothes = 5
-    furniture = 4
-    paper = 5
-    glass = 1
-    tobacco = 3
-    tea = 5
-    coffee = 2
+	canned_food = 0.75
+	coal = 1
+	liquor = 5
+	regular_clothes = 5
+	furniture = 4
+	paper = 5
+	glass = 1
+	tobacco = 3
+	tea = 5
 }
 
-#Total cash needed: 429.2 - Vanilla value: 383.4
 luxury_needs = {
-    canned_food = 0.75
-    fruit = 1
-    wool = 3
-    opium = 1
-    luxury_clothes = 1
-    luxury_furniture = 1
-    telephones = 1.25
-    automobiles = 1
-    wine = 10
-    aeroplanes = 0.4
-    radio = 1
-    fuel = 0.2
+	opium = 1.0
+	luxury_clothes = 1
+	luxury_furniture = 1
+	telephones = 1.25
+	automobiles = 1.0
+	wine = 10
+	aeroplanes = 0.4
+	radio = 1.0
+	fuel = 0.2
+	coffee = 2
 }
 
 country_migration_target = {

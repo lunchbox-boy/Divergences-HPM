@@ -58,7 +58,7 @@ raw_material_goods = {
         }
     }
     wool = {
-        cost = 0.7
+        cost = 2.0
         color = {
             234 195 158
         }

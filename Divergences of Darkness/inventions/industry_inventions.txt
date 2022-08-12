@@ -1,3 +1,11 @@
+#piston_steam_engine
+wool_mill = {
+	limit = { piston_steam_engine = 1 }
+	chance = { base = 100 }
+	effect = { activate_building = wool_mill }
+}
+
+
 #combustion_engine
 daimlers_automobile = {
 	limit = { combustion_engine = 1 }
@@ -930,7 +938,7 @@ aerial_bacteria_and_antiseptic_principle = {
 		}
     }
     effect = {
-        pop_growth = 0.0005
+        pop_growth = 0.0006
         land_attrition = -0.05
         soldier_to_pop_loss = 0.01
     }

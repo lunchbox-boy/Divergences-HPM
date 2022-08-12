@@ -1382,7 +1382,7 @@ electricity = {
 
     supply_limit = 0.50
 
-	pop_growth = 0.00025
+	pop_growth = 0.00035
 
     ai_chance = {
         factor = 5
